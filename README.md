@@ -1,5 +1,3 @@
-/***
-
 	INSTALLATION
 
 	1. copy folder `e-prescription` into your root localhost  or hostname directory
@@ -8,5 +6,3 @@
 	4. open file `database.php` in `application\config` folder using your texteditor
 	5. change `dsn`, `hostname`, `username` and `password` with your available data
 	6. open appllication with access `{localhost or hostname}/e-prescription`
-
-***/
