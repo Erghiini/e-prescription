@@ -6,3 +6,5 @@
 	4. open file `database.php` in `application\config` folder using your texteditor
 	5. change `dsn`, `hostname`, `username` and `password` with your available data
 	6. open appllication with access `{localhost or hostname}/e-prescription`
+
+	*Note: rename folder `e-prescription-main` to `e-prescription` after download this repo
