@@ -122,8 +122,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-lg-12 racikan-card">
                         <?php 
-                            // print_r($racikan_obat[21]);
-
                             foreach ($racikan as $data) {
                                 $racikan_id = $data['racikan_id'];
                                 $racikan_nama = $data['racikan_nama'];

@@ -61,42 +61,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
 
                         <div class="col-lg-12 non-racikan-card">
-                            <!-- <div class="card">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <label>Obat</label>
-                                                <select name="non_racik[obatalkes_id][]" id="" class="form-control obatalkes_id" required>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <div class="form-group">
-                                                <label>Stok Obat</label>
-                                                <input type="text" name="non_racik[stok][]" id="" class="form-control stok" value="N/A" disabled>    
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <div class="form-group">
-                                                <label>Qty</label>
-                                                <input type="number" name="non_racik[qty][]" id="" class="form-control qty" value="0" min="1" placeholder="-" required>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group">
-                                                <label>Signa</label>
-                                                <select name="non_racik[signa_id][]" id="" class="form-control signa_id" required>
-                                                </select>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-12" align="right">
-                                            <button type="button" class="btn btn-danger btn-sm delete-obat"><i class="fa fa-trash"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
                         </div>
 
                         <div class="col-lg-12">
@@ -115,55 +79,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
 
                         <div class="col-lg-12 racikan-card">
-                            <!-- <div class="card racikan-list"> -->
-                                <!-- <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label>Nama Racikan</label>
-                                                <input type="text" name="racik[nama_racikan][]" id="" maxlength="100" minlength="5" class="form-control" placeholder="Contoh: Racikan obat penurun panas">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <label>Signa</label>
-                                                <select name="racik[signa_id][]" id="" class="form-control signa_id">
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="container-racikan-obat">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <div class="row">
-                                                    <div class="col-lg-4">
-                                                        <div class="form-group">
-                                                            <label>Obat</label>
-                                                            <select name="racik[obatalkes_id][0][]" id="" class="form-control obatalkes_id">
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <div class="form-group">
-                                                            <label>Stok Obat</label>
-                                                            <input type="text" name="racik[stok][0][]" id="" class="form-control stok" value="0" placeholder="N/A" disabled>    
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2">
-                                                        <div class="form-group">
-                                                            <label>Qty</label>
-                                                            <input type="number" name="racik[qty][0][]" id="" class="form-control qty" value="0" min="1" placeholder="-" required>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <button type="button" class="btn btn-success add-obat-racikan" style="width: 100%"><i class="fa fa-plus"></i> Tambah Obat</button>
-                                    </div>
-                                </div> -->
-                            <!-- </div> -->
                         </div>
 
                         <div class="col-lg-12">
@@ -189,7 +104,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    
                                 </tbody>
                             </table>
                         </div>
